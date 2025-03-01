@@ -1,0 +1,2 @@
+what time would you like to meditate this click (sun) button and go to next page AND you are look basic course dwon start button click show you notification bar and you click notification item you well got 
+other activity and follow the linkdine vedio and step by step  url: https://www.linkedin.com/posts/rosdev-koch-260005324_one-more-project-completed-activity-7296225892861661184-MmOR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFHe4ygB4EXMK8Uj_ZuMElGq-xnH42QeJuQ
