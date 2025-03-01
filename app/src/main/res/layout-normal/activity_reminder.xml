@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E5E5E5"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".page.Reminder">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#3F414E"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="18dp"
+        android:text="What time would you \nlike to meditate?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:textSize="15dp"
+        android:textColor="#A1A4B2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="18dp"
+        android:text="Any time you can choose but We recommend\nfirst thing in th morning."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        android:layout_width="370dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="198dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#3F414E"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="18dp"
+        android:text="Which day would you\nlike to meditate?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:textSize="15dp"
+        android:textColor="#A1A4B2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="18dp"
+        android:text="Everyday is best, but we recommendpicking\nat least five."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="50dp"
+            android:backgroundTint="#E5E5E5"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/sunday"
+                android:background="@drawable/day"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8.8dp"
+                android:layout_marginTop="8dp"
+                android:text="SU">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="50dp"
+            android:backgroundTint="#E5E5E5"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/monday"
+                android:background="@drawable/day"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="8dp"
+                android:text="M">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:background="#E5E5E5"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/thuesday"
+                android:background="@drawable/day"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:text="T">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="50dp"
+            android:background="#E5E5E5"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/wednesday"
+                android:background="@drawable/day"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="8dp"
+                android:text="W">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="50dp"
+            android:background="#E5E5E5"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/tharsday"
+                android:background="@drawable/day"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="TH">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="50dp"
+            android:background="#E5E5E5"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:id="@+id/friday"
+                android:layout_height="35dp"
+                android:background="@drawable/day"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="8dp"
+                android:text="F">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="50dp"
+            android:background="#E5E5E5"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:clickable="true"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="35dp"
+            android:id="@+id/setarday"
+            android:layout_height="35dp"
+            android:background="@drawable/day"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="8dp"
+            android:text="S">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="350dp"
+        android:id="@+id/singup"
+        android:layout_marginTop="25dp"
+        android:text="SIGN UP"
+        app:cornerRadius="12dp"
+        android:focusable="false"
+        android:textSize="14dp"
+        android:backgroundTint="#8E97FD"
+        android:textColor="#F6F1FB"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="63dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <TextView
+        android:text="No Thanks"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>

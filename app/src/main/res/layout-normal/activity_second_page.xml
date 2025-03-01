@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FAF8F5"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".page.SecondPage">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:elevation="80dp"
+        android:src="@drawable/backlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="28dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#3F414E"
+        android:textStyle="bold"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back!" />
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="25dp"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:text="CONTINUE WITH FACEBOOK"
+        android:textSize="14dp"
+        android:backgroundTint="#7583CA"
+        android:textColor="#F6F1FB"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="56dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="35dp"
+                android:src="@drawable/facebook"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#EBEAEC"/>
+
+            <TextView
+                android:textSize="14dp"
+                android:layout_marginLeft="33dp"
+                android:textColor="#F6F1FB"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTINUE WITH FACEBOOK" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:clickable="true"
+        app:cardCornerRadius="25dp"
+        android:layout_width="350dp"
+        android:layout_marginTop="10dp"
+        android:text="CONTINUE WITH FACEBOOK"
+        android:textSize="14dp"
+        android:backgroundTint="#EBEAEC"
+        android:textColor="#F6F1FB"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="56dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="35dp"
+        android:src="@drawable/google"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#EBEAEC"/>
+
+    <TextView
+        android:textSize="14dp"
+        android:layout_marginLeft="33dp"
+        android:textColor="#3F414E"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE WITH GOOGLE" />
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:textSize="13dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#A1A4B2"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR LOG IN WITH EMAIL" />
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        app:hintEnabled="false"
+        android:layout_marginTop="28dp"
+        app:hintAnimationEnabled="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginTop="25dp"
+            android:paddingStart="20dp"
+            android:textColorHint="#3F4553"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="340dp"
+            android:background="@drawable/custom"
+            android:drawableEnd="@null"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:textColor="#A1A4B2"
+            android:textStyle="normal"
+            android:textColorHighlight="#8E97FD"
+            android:layout_height="56dp"
+            android:hint="Email address" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        app:hintEnabled="false"
+        app:endIconMode="password_toggle"
+        android:layout_marginTop="10dp"
+        app:hintAnimationEnabled="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:paddingStart="20dp"
+            android:textColorHint="#3F4553"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="340dp"
+            android:id="@+id/password"
+            android:background="@drawable/custom"
+            android:drawableEnd="@null"
+            android:textColorHighlight="#8E97FD"
+            android:textColor="#A1A4B2"
+            android:textStyle="normal"
+            android:layout_height="56dp"
+            android:hint="Password" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="350dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/login"
+        android:text="LOG IN"
+        app:cornerRadius="17dp"
+        android:textSize="14dp"
+        android:backgroundTint="#8E97FD"
+        android:textColor="#F6F1FB"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="63dp"/>
+
+    <TextView
+        android:textSize="14dp"
+        android:textColor="#3F414E"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?" />
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="#A1A4B2"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALREADY HAVE AN ACCOUNT?" />
+        <TextView
+            android:text="SIGN UP"
+            android:textColor="#8E97FD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

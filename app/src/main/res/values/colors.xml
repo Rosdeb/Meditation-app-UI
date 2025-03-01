@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_press">#03174C</color>
+    <color name="white_press1">#8E97FD</color>
+    <color name="custom_highlight">#3B55CF</color>
+    <color name="button_selected_color">#FF4081</color>  <!-- Pink color when pressed -->
+    <color name="button_default_color">#6200EE</color>
+    <color name="color_pressed">#FFEAA3</color>
+    <color name="red">#C60A0A</color>
+    <color name="color_unpressed">#8E97FD</color>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/toast"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Import Firstname and lastname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:hint="first name"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="50dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:hint="last name"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="50dp">
+
+    </EditText>
+
+
+ <LinearLayout
+     android:layout_gravity="center_horizontal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     <com.google.android.material.button.MaterialButton
+         app:cornerRadius="8dp"
+         android:layout_margin="15dp"
+         android:text="imports"
+         android:id="@+id/impost"
+         android:layout_gravity="center_horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+     </com.google.android.material.button.MaterialButton>
+     <com.google.android.material.button.MaterialButton
+         app:cornerRadius="8dp"
+         android:text="fatch"
+         android:id="@+id/fatch"
+         android:layout_gravity="center_horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+     </com.google.android.material.button.MaterialButton>
+
+     <com.google.android.material.button.MaterialButton
+         app:cornerRadius="8dp"
+         android:layout_margin="15dp"
+         android:text="image"
+         android:id="@+id/image"
+         android:layout_gravity="center_horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+     </com.google.android.material.button.MaterialButton>
+ </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </ScrollView>
+
+</LinearLayout>

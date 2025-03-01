@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#03174C"
+    android:layout_height="match_parent"
+    tools:context=".page.Player_music">
+
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/palyer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/player3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="280dp"
+        android:src="@drawable/efectt1">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="228dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="337dp"
+        android:layout_marginEnd="-46dp"
+        android:layout_marginBottom="165dp"
+        android:src="@drawable/effectt2">
+
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        app:cardCornerRadius="25dp">
+
+        <ImageButton
+            android:id="@+id/back_cross"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_fragment"
+            android:clickable="true"
+            android:src="@drawable/cross1"
+            app:civ_border_color="#EBEAEC"
+            app:civ_border_width="2dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="22dp"
+        app:cardCornerRadius="25dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/love1"
+            android:clickable="true"
+            android:src="@drawable/love"
+            app:civ_border_color="#EBEAEC"
+            app:civ_border_width="2dp" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="22dp"
+        app:cardCornerRadius="25dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/love1"
+            android:clickable="true"
+            android:src="@drawable/down"
+            app:civ_border_color="#EBEAEC"
+            app:civ_border_width="2dp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/title_music"
+        android:layout_width="190dp"
+        android:gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="403dp"
+        android:text="Night Island"
+        android:textColor="#E6E7F2"
+        android:textSize="34dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="387dp"
+        android:text="SLEEP MUSIC"
+        android:textColor="#E6E7F2"
+        android:textSize="14dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/circle_center12"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="217dp"
+        android:src="@drawable/backgroudn">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="228dp"
+        android:src="@drawable/backgroud1">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="258dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pause">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/forword_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="253dp"
+        android:src="@drawable/increase">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/deiscrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="248dp"
+        android:src="@drawable/increase">
+
+    </ImageView>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="333.44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="156dp"
+        android:outlineSpotShadowColor="#47557E"
+        android:thumbTint="@color/color_pressed">
+
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/current_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="125dp"
+        android:text="0:00"
+        android:textColor="#E6E7F2"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/total_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="125dp"
+        android:text="45:00"
+        android:textColor="#E6E7F2"
+        android:textSize="16dp">
+    </TextView>
+
+
+</RelativeLayout>
